@@ -1,7 +1,7 @@
 import random
 
 NUM_DIGITS = 3
-MAX_GUESSES = 10
+MAX_GUESSES = 12
 
 print(f"I am thinking of a {NUM_DIGITS} number, with no repeated digits."
       f"\nTry to guess what it is. Here are some clues: "
