@@ -1,7 +1,7 @@
 import random
 
 NUM_DIGITS = 3
-MAX_GUESSES = 12
+MAX_GUESSES = 10
 
 print(f"I am thinking of a {NUM_DIGITS} number, with no repeated digits."
       f"\nTry to guess what it is. Here are some clues: "
@@ -40,7 +40,6 @@ def check_code(guess, secret_code):
 while True:
     guess_counter = 1
     secret_code = get_number()
-    print(secret_code)
     while guess_counter <= MAX_GUESSES:
         guess = ''
         while len(guess) != len(secret_code):
